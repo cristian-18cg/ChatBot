@@ -1,0 +1,43 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: 'B382FC4A4E6E9329E17B735E3301DBF8',
+    participant: undefined
+  },
+  messageTimestamp: 1707768143,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Jold',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Jold',
+  from: '573168108421'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_381a4616-85db-437c-8c83-cbb29b81f5e2',
+  keyword: 'key_5319c961-910b-4338-bbb8-bd8a0030a4ff',
+  answer: '⚡⚡ Hola, welcome a Nacional de Electricos ⚡⚡',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '011984025572830cb73736296b73f1ca'
+}
+Error en sendProviderAndSave (ID ans_430215db-9e48-4201-a750-96d251bd9844): ReferenceError: getLastMessageInChat is not defined
+    at Object.ans_430215db-9e48-4201-a750-96d251bd9844 (C:\Users\Usuario\Documents\Desarrollo\Proyecto_Chat_Bot\base-baileys-memory\app.js:209:27)
+    at async runContext (C:\Users\Usuario\Documents\Desarrollo\Proyecto_Chat_Bot\base-baileys-memory\node_modules\@bot-whatsapp\bot\lib\bundle.bot.cjs:1444:17)
+    at async cbEveryCtx (C:\Users\Usuario\Documents\Desarrollo\Proyecto_Chat_Bot\base-baileys-memory\node_modules\@bot-whatsapp\bot\lib\bundle.bot.cjs:1471:13)
+    at async resolveCbEveryCtx (C:\Users\Usuario\Documents\Desarrollo\Proyecto_Chat_Bot\base-baileys-memory\node_modules\@bot-whatsapp\bot\lib\bundle.bot.cjs:1401:29)
