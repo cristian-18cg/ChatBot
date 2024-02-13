@@ -1,12 +1,12 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '573168108421@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: '9663E919347FCDB33B97F409CA059268',
+    id: '3A25CD6007891E1CFD08',
     participant: undefined
   },
-  messageTimestamp: 1707830319,
-  pushName: 'Felipe Carrillo',
+  messageTimestamp: 1707835152,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
     conversation: 'Hola',
@@ -16,11 +16,11 @@
     }
   },
   body: 'Hola',
-  from: '573168108421'
+  from: '35699964899'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1bb2ea67-b6b3-48c6-a237-d07967f3f920',
-  keyword: 'key_4563c88c-f0c2-4d7b-8c2e-0b9014e89aaf',
+  ref: 'ans_97a42db0-a859-4aec-8db0-4b12a6741b3e',
+  keyword: 'key_7eb46cd9-af89-4038-a0c7-cf3ffb456a90',
   answer: 'Buenas!',
   options: {
     media: null,
@@ -34,11 +34,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'decd03b4b313047b608c5c810be5bac3'
+  refSerialize: '453e36cb0aa45ed2cc4606877294281c'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_12ace4fc-670c-4e46-adc1-c40122c522d6',
-  keyword: 'ans_1bb2ea67-b6b3-48c6-a237-d07967f3f920',
+  ref: 'ans_ba4e46f3-33e9-47f2-b417-1bfa97599b30',
+  keyword: 'ans_97a42db0-a859-4aec-8db0-4b12a6741b3e',
   answer: 'Para cuando quieres la reserva de la cita?',
   options: {
     media: null,
@@ -52,115 +52,37 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '3672de25c0088d7b49f195e993c2949e'
+  refSerialize: '8c889b6c309eb02506f1beff90cf974c'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168108421@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: '68887B741035B0590C78719CF3E35C99',
+    id: '3AB4D9C41BF35FB5CDDC',
     participant: undefined
   },
-  messageTimestamp: 1707830329,
-  pushName: 'Felipe Carrillo',
+  messageTimestamp: 1707835162,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
-    conversation: 'Que horarios tienen',
+    conversation: 'Horarios y disponibilidad',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Que horarios tienen',
-  from: '573168108421'
+  body: 'Horarios y disponibilidad',
+  from: '35699964899'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168108421@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: 'DBD365969BC3BAD0E25087C465C399C6',
+    id: '3AB69542A5BD9A06C609',
     participant: undefined
   },
-  messageTimestamp: 1707830351,
-  pushName: 'Felipe Carrillo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Martes 4:30',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Martes 4:30',
-  from: '573168108421'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573168108421@s.whatsapp.net',
-    fromMe: false,
-    id: 'E164C8EA489A62B0A060814A832C2A57',
-    participant: undefined
-  },
-  messageTimestamp: 1707830357,
-  pushName: 'Felipe Carrillo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Okay',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Okay',
-  from: '573168108421'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573168108421@s.whatsapp.net',
-    fromMe: false,
-    id: '9EA4AE59AF0CFA5027DF8CEA5ED75DA0',
-    participant: undefined
-  },
-  messageTimestamp: 1707830368,
-  pushName: 'Felipe Carrillo',
-  broadcast: false,
-  message: Message {
-    conversation: 'SI CONFIRMO',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'SI CONFIRMO',
-  from: '573168108421'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_4c5a32a8-e9dd-488e-9b0f-103829fa3c06',
-  keyword: 'key_80cfd999-851f-4048-ae24-16e6ddd54ff0',
-  answer: 'Reservado',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '307d688d73f7ead38bb46236000a67c7'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573168108421@s.whatsapp.net',
-    fromMe: false,
-    id: 'F9CAE0E093902FE726269F0F6D0DF43F',
-    participant: undefined
-  },
-  messageTimestamp: 1707830418,
-  pushName: 'Felipe Carrillo',
+  messageTimestamp: 1707835185,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
     conversation: 'Hola',
@@ -170,73 +92,89 @@
     }
   },
   body: 'Hola',
-  from: '573168108421'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1bb2ea67-b6b3-48c6-a237-d07967f3f920',
-  keyword: 'key_4563c88c-f0c2-4d7b-8c2e-0b9014e89aaf',
-  answer: 'Buenas!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'decd03b4b313047b608c5c810be5bac3'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_12ace4fc-670c-4e46-adc1-c40122c522d6',
-  keyword: 'ans_1bb2ea67-b6b3-48c6-a237-d07967f3f920',
-  answer: 'Para cuando quieres la reserva de la cita?',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [ [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '3672de25c0088d7b49f195e993c2949e'
+  from: '35699964899'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168108421@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: '6CB0A7394F5E0FFB4E8A5D42B7CD2DD2',
+    id: '3A4ED33D585B54F52986',
     participant: undefined
   },
-  messageTimestamp: 1707830426,
-  pushName: 'Felipe Carrillo',
+  messageTimestamp: 1707835211,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
-    conversation: 'No sea sapo',
+    conversation: 'Disponibilidad',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'No sea sapo',
-  from: '573168108421'
+  body: 'Disponibilidad',
+  from: '35699964899'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573013837361@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: '3A5084B2578C0E1C0A2C',
+    id: '3A1F6CDD8B6460991C8B',
     participant: undefined
   },
-  messageTimestamp: 1707830857,
-  pushName: 'Diego Kaviedes',
+  messageTimestamp: 1707835218,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    stickerMessage: StickerMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.15575-24/31982573_906251717638053_5760913470574346530_n.enc?ccb=11-4&oh=01_AdQeDHe5RXVpwAm4bfI7ijCUULd9MpTZiiC2lKSHQW8xXQ&oe=65F2FC96&_nc_sid=5e03e0&mms3=true',
+      fileSha256: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      mediaKey: [Uint8Array],
+      mimetype: 'image/webp',
+      directPath: '/v/t62.15575-24/31982573_906251717638053_5760913470574346530_n.enc?ccb=11-4&oh=01_AdQeDHe5RXVpwAm4bfI7ijCUULd9MpTZiiC2lKSHQW8xXQ&oe=65F2FC96&_nc_sid=5e03e0',
+      fileLength: [Long],
+      mediaKeyTimestamp: [Long],
+      isAnimated: false,
+      stickerSentTs: [Long],
+      isAvatar: false
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__0f84dea2-861b-4e2e-ac15-809144ee30e5',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A536CF96FBEC9F1E7CA',
+    participant: undefined
+  },
+  messageTimestamp: 1707835221,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Jajajajaja',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Jajajajaja',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A3B4B7C7E34986A2F2E',
+    participant: undefined
+  },
+  messageTimestamp: 1707835223,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
     conversation: 'Hola',
@@ -246,113 +184,60 @@
     }
   },
   body: 'Hola',
-  from: '573013837361'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1bb2ea67-b6b3-48c6-a237-d07967f3f920',
-  keyword: 'key_4563c88c-f0c2-4d7b-8c2e-0b9014e89aaf',
-  answer: 'Buenas!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'decd03b4b313047b608c5c810be5bac3'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_12ace4fc-670c-4e46-adc1-c40122c522d6',
-  keyword: 'ans_1bb2ea67-b6b3-48c6-a237-d07967f3f920',
-  answer: 'Para cuando quieres la reserva de la cita?',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [ [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '3672de25c0088d7b49f195e993c2949e'
+  from: '35699964899'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573013837361@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: '3AC70E11C7C3C5544EE7',
+    id: '3A87895BD3110AE81B0D',
     participant: undefined
   },
-  messageTimestamp: 1707830874,
-  pushName: 'Diego Kaviedes',
+  messageTimestamp: 1707835238,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
-    conversation: 'Para el otro miércoles',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'A las 11 am',
+      contextInfo: [ContextInfo]
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Para el otro miércoles',
-  from: '573013837361'
+  body: 'A las 11 am',
+  from: '35699964899'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573013837361@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: '3A16FEDFD843CDEC79CB',
+    id: '3A13622580AA3EACD394',
     participant: undefined
   },
-  messageTimestamp: 1707830885,
-  pushName: 'Diego Kaviedes',
+  messageTimestamp: 1707835248,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
-    conversation: 'A las 3?',
+    conversation: '01 pm',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'A las 3?',
-  from: '573013837361'
+  body: '01 pm',
+  from: '35699964899'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573013837361@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: '3A693AC580CE528B7F75',
+    id: '3ACF5321E0D8071ADDCD',
     participant: undefined
   },
-  messageTimestamp: 1707830892,
-  pushName: 'Diego Kaviedes',
-  broadcast: false,
-  message: Message {
-    conversation: 'Agendala',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Agendala',
-  from: '573013837361'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573013837361@s.whatsapp.net',
-    fromMe: false,
-    id: '3AA115456AB5A24A4ACE',
-    participant: undefined
-  },
-  messageTimestamp: 1707830903,
-  pushName: 'Diego Kaviedes',
+  messageTimestamp: 1707835261,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
     conversation: 'Si confirmo',
@@ -362,11 +247,11 @@
     }
   },
   body: 'Si confirmo',
-  from: '573013837361'
+  from: '35699964899'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_4c5a32a8-e9dd-488e-9b0f-103829fa3c06',
-  keyword: 'key_80cfd999-851f-4048-ae24-16e6ddd54ff0',
+  ref: 'ans_7dd4d6e7-f006-4f2d-be5b-136453b13245',
+  keyword: 'key_ded76018-aeb8-49a3-9832-e24f0e4f4419',
   answer: 'Reservado',
   options: {
     media: null,
@@ -380,31 +265,524 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '307d688d73f7ead38bb46236000a67c7'
+  refSerialize: 'd5114e081b356dbec98f4b8521781b97'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573013837361@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: '5EBA3FA6AC6052DC6F84',
+    id: '3A3B1111E25D929A49EF',
     participant: undefined
   },
-  messageTimestamp: 1707830995,
-  pushName: 'Diego Kaviedes',
+  messageTimestamp: 1707835273,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Gracias lindo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Gracias lindo',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A99A13BF397637FDADD',
+    participant: undefined
+  },
+  messageTimestamp: 1707835280,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Estudias o trabajas?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Estudias o trabajas?',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3AFA2D68F3304243AD6B',
+    participant: undefined
+  },
+  messageTimestamp: 1707835292,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Jajajajaja',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Jajajajaja',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A69850BF171D21A0789',
+    participant: undefined
+  },
+  messageTimestamp: 1707835296,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Bien mi perrito',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Bien mi perrito',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A5E20C233225402E15B',
+    participant: undefined
+  },
+  messageTimestamp: 1707835303,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ya de vuelta al juego por acá',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ya de vuelta al juego por acá',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A5D5BBA2434ADFE6D39',
+    participant: undefined
+  },
+  messageTimestamp: 1707835308,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tú cómo vas?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Tú cómo vas?',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A290EF396E60DB2E10B',
+    participant: undefined
+  },
+  messageTimestamp: 1707835366,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hoy a las 8, son casi las 4',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hoy a las 8, son casi las 4',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A8F0FAA915F26830B34',
+    participant: undefined
+  },
+  messageTimestamp: 1707835381,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Mela, te está quedando chévere',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Mela, te está quedando chévere',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A1A3BA147C1E2B08948',
+    participant: undefined
+  },
+  messageTimestamp: 1707835396,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Sí mi perrito',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Sí mi perrito',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A1F82B622DE8DF436F1',
+    participant: undefined
+  },
+  messageTimestamp: 1707835405,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hace como 20 minutos',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hace como 20 minutos',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3AAF3CC84744B0344851',
+    participant: undefined
+  },
+  messageTimestamp: 1707835410,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Anoche, sí',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  status: 4,
+  body: 'Anoche, sí',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3AA49DA9EF5EA4F477A8',
+    participant: undefined
+  },
+  messageTimestamp: 1707835412,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Mira',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Mira',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A955899160FCF3A66CF',
+    participant: undefined
+  },
+  messageTimestamp: 1707835436,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    videoMessage: VideoMessage {
+      interactiveAnnotations: [],
+      url: 'https://mmg.whatsapp.net/v/t62.7161-24/26884526_388894607121684_7486638645738475597_n.enc?ccb=11-4&oh=01_AdRfGZojEKp6hH89Fem8FN5i8F6iYLGq_gsd_jb3qLmS6g&oe=65F30029&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'video/mp4',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 7,
+      mediaKey: [Uint8Array],
+      height: 848,
+      width: 480,
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7161-24/26884526_388894607121684_7486638645738475597_n.enc?ccb=11-4&oh=01_AdRfGZojEKp6hH89Fem8FN5i8F6iYLGq_gsd_jb3qLmS6g&oe=65F30029&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      streamingSidecar: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__41b53ff6-33bd-484a-b56f-9078333a53c4',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3AE6E4843BB49AD5FA0E',
+    participant: undefined
+  },
+  messageTimestamp: 1707835440,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: '🥺',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '🥺',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3AF73A4534465BF64444',
+    participant: undefined
+  },
+  messageTimestamp: 1707835464,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
     imageMessage: ImageMessage {
       interactiveAnnotations: [],
       scanLengths: [Array],
-      url: 'https://mmg.whatsapp.net/v/t62.7118-24/32542724_922447369476769_8311952329936666506_n.enc?ccb=11-4&oh=01_AdR_8gAFo9K7jrOhfbavqAQcpmXabLh64uhaO0TMwspF9w&oe=65F2E9B8&_nc_sid=5e03e0&mms3=true',
+      url: 'https://mmg.whatsapp.net/v/t62.7118-24/35771891_1477803076109044_453828765022320263_n.enc?ccb=11-4&oh=01_AdRoqfE3C_qHUJpZh06jEp5JkkozKypZG6i4DAuuw_do0A&oe=65F2ECDB&_nc_sid=5e03e0&mms3=true',
       mimetype: 'image/jpeg',
       fileSha256: [Uint8Array],
       fileLength: [Long],
-      height: 768,
-      width: 1024,
+      height: 2048,
+      width: 1536,
       mediaKey: [Uint8Array],
       fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7118-24/32542724_922447369476769_8311952329936666506_n.enc?ccb=11-4&oh=01_AdR_8gAFo9K7jrOhfbavqAQcpmXabLh64uhaO0TMwspF9w&oe=65F2E9B8&_nc_sid=5e03e0',
+      directPath: '/v/t62.7118-24/35771891_1477803076109044_453828765022320263_n.enc?ccb=11-4&oh=01_AdRoqfE3C_qHUJpZh06jEp5JkkozKypZG6i4DAuuw_do0A&oe=65F2ECDB&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      firstScanSidecar: [Uint8Array],
+      firstScanLength: 25621,
+      scansSidecar: [Uint8Array],
+      midQualityFileSha256: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__19bc03e7-7589-4eae-ac1a-9e79c99245a8',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A47953C4A7861471BC0',
+    participant: undefined
+  },
+  messageTimestamp: 1707835485,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Todo fue muy rápido, casi no tuve tiempo, pero todo es muy bonito',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Todo fue muy rápido, casi no tuve tiempo, pero todo es muy bonito',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573143565918@s.whatsapp.net',
+    fromMe: false,
+    id: '3A7A747BE60526EDF849',
+    participant: undefined
+  },
+  messageTimestamp: 1707835509,
+  pushName: 'Gaby Cobos',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Ay mi vida jajaja tú puedes solucionarlo ?',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ay mi vida jajaja tú puedes solucionarlo ?',
+  from: '573143565918'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3AE114B4C84861163CD6',
+    participant: undefined
+  },
+  messageTimestamp: 1707835510,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Fui también a la entrada del Vaticano, pero no pude estar mucho porque me tenía que ir',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Fui también a la entrada del Vaticano, pero no pude estar mucho porque me tenía que ir',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573143565918@s.whatsapp.net',
+    fromMe: false,
+    id: '3A28497B53030D1C5FAE',
+    participant: undefined
+  },
+  messageTimestamp: 1707835522,
+  pushName: 'Gaby Cobos',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Que espectacular vista amor',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Que espectacular vista amor',
+  from: '573143565918'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A038CAD279B56BDC2B8',
+    participant: undefined
+  },
+  messageTimestamp: 1707835524,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '18 eurachos para entrar',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '18 eurachos para entrar',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3AB43C2AF73B40C38F81',
+    participant: undefined
+  },
+  messageTimestamp: 1707835551,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Gracias a Dios de verdad por la oportunity',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Gracias a Dios de verdad por la oportunity',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3AB7BFC625DB55C95424',
+    participant: undefined
+  },
+  messageTimestamp: 1707835566,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'No me pareció caro',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'No me pareció caro',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '5E98F496168C90783772',
+    participant: undefined
+  },
+  messageTimestamp: 1707835633,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [Array],
+      url: 'https://mmg.whatsapp.net/v/t62.7118-24/40764019_1106898593774259_2572822635028602783_n.enc?ccb=11-4&oh=01_AdTW57OMaYuVxAejwwrzRn-rcgnlFkuc2tYTxwrgSwAz8w&oe=65F2E24A&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'image/jpeg',
+      caption: 'Vine también a la fuente esta que es como famosa',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 1600,
+      width: 1200,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7118-24/40764019_1106898593774259_2572822635028602783_n.enc?ccb=11-4&oh=01_AdTW57OMaYuVxAejwwrzRn-rcgnlFkuc2tYTxwrgSwAz8w&oe=65F2E24A&_nc_sid=5e03e0',
       mediaKeyTimestamp: [Long],
       jpegThumbnail: [Uint8Array],
       scansSidecar: [Uint8Array],
@@ -415,268 +793,581 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: '_event_media__026863b1-2a7a-4b0a-b3d7-0213154d7a95',
-  from: '573013837361'
+  body: '_event_media__6312c492-38bc-43bb-8e3d-2d2022db25c4',
+  from: '35699964899'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168210553@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: 'A88EA04BFE4C379587891FA9A8354975',
+    id: '3A684E0FE1DF8F5F90C9',
     participant: undefined
   },
-  messageTimestamp: 1707831431,
-  pushName: 'Distrirym',
+  messageTimestamp: 1707835977,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
-    conversation: 'Coma muerda',
+    conversation: 'Estoy muy agradecido con la vida Cristo',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Distrirym',
-  body: 'Coma muerda',
-  from: '573168210553'
+  body: 'Estoy muy agradecido con la vida Cristo',
+  from: '35699964899'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168210553@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: 'E2527EB255B229491FD85B81A73DC393',
+    id: '3A45C4453546E5BE2771',
     participant: undefined
   },
-  messageTimestamp: 1707831438,
-  pushName: 'Distrirym',
+  messageTimestamp: 1707836015,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
-    conversation: 'Mierda corrección',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  verifiedBizName: 'Distrirym',
-  body: 'Mierda corrección',
-  from: '573168210553'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573168210553@s.whatsapp.net',
-    fromMe: false,
-    id: 'ABEFB10700FD8317C5DE64BA4147FEF6',
-    participant: undefined
-  },
-  messageTimestamp: 1707831446,
-  pushName: 'Distrirym',
-  broadcast: false,
-  message: Message {
-    stickerMessage: StickerMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.15575-24/35084250_700958408876396_1936640661465452334_n.enc?ccb=11-4&oh=01_AdQwk1dGd1N48P9rZ2cgRayJfwRqE2N1fkQBUd5ahU3rXw&oe=65F2E57F&_nc_sid=5e03e0&mms3=true',
-      fileSha256: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      mediaKey: [Uint8Array],
-      mimetype: 'image/webp',
-      height: 64,
-      width: 64,
-      directPath: '/v/t62.15575-24/35084250_700958408876396_1936640661465452334_n.enc?ccb=11-4&oh=01_AdQwk1dGd1N48P9rZ2cgRayJfwRqE2N1fkQBUd5ahU3rXw&oe=65F2E57F&_nc_sid=5e03e0',
-      fileLength: [Long],
-      mediaKeyTimestamp: [Long],
-      firstFrameLength: 7652,
-      firstFrameSidecar: [Uint8Array],
-      isAnimated: true,
-      stickerSentTs: [Long],
-      isAvatar: false
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Depende mucho, yo creo que entre cosa y cosa por ahí unos 7 a 9, pero depende mucho, puede ser más, o menos',
+      contextInfo: [ContextInfo]
     },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Distrirym',
-  body: '_event_media__4187db44-82c7-4945-a18b-ebec9160e95f',
-  from: '573168210553'
+  body: 'Depende mucho, yo creo que entre cosa y cosa por ahí unos 7 a 9, pero depende mucho, puede ser más, o menos',
+  from: '35699964899'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168210553@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: 'CA2A0998618F36E55605A7F0F7814162',
+    id: '3A206863866223D6C9D7',
     participant: undefined
   },
-  messageTimestamp: 1707831454,
-  pushName: 'Distrirym',
+  messageTimestamp: 1707836122,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
-    conversation: 'Escriba hola',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Gracias por pensar así mi perrito, significa mucho',
+      contextInfo: [ContextInfo]
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Distrirym',
-  body: 'Escriba hola',
-  from: '573168210553'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1bb2ea67-b6b3-48c6-a237-d07967f3f920',
-  keyword: 'key_4563c88c-f0c2-4d7b-8c2e-0b9014e89aaf',
-  answer: 'Buenas!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'decd03b4b313047b608c5c810be5bac3'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_12ace4fc-670c-4e46-adc1-c40122c522d6',
-  keyword: 'ans_1bb2ea67-b6b3-48c6-a237-d07967f3f920',
-  answer: 'Para cuando quieres la reserva de la cita?',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [ [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '3672de25c0088d7b49f195e993c2949e'
+  body: 'Gracias por pensar así mi perrito, significa mucho',
+  from: '35699964899'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168210553@s.whatsapp.net',
+    remoteJid: '573143565918@s.whatsapp.net',
     fromMe: false,
-    id: '9DE26015A81D91EA5401EB4A33A6428C',
+    id: '3ABC8510BDA3C8FA760A',
     participant: undefined
   },
-  messageTimestamp: 1707831475,
-  pushName: 'Distrirym',
+  messageTimestamp: 1707836159,
+  pushName: 'Gaby Cobos',
   broadcast: false,
   message: Message {
-    conversation: 'Para el 13 aquí las tengo para que me las bese',
+    conversation: 'Ahhhh Oky amor AJJAJA con razón',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Distrirym',
-  body: 'Para el 13 aquí las tengo para que me las bese',
-  from: '573168210553'
+  body: 'Ahhhh Oky amor AJJAJA con razón',
+  from: '573143565918'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168210553@s.whatsapp.net',
+    remoteJid: '573143565918@s.whatsapp.net',
     fromMe: false,
-    id: '14CF85E3BF5DA25C42C58F3252687E04',
+    id: '3A4F9EC7A94EEF71A6A5',
     participant: undefined
   },
-  messageTimestamp: 1707831477,
-  pushName: 'Distrirym',
+  messageTimestamp: 1707836171,
+  pushName: 'Gaby Cobos',
   broadcast: false,
   message: Message {
-    conversation: 'Jajajaja',
+    conversation: 'Pero eso tiene solución amor ?',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Distrirym',
-  body: 'Jajajaja',
-  from: '573168210553'
+  body: 'Pero eso tiene solución amor ?',
+  from: '573143565918'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168210553@s.whatsapp.net',
+    remoteJid: '35699964899@s.whatsapp.net',
     fromMe: false,
-    id: 'B7512BAD24E0CEAEFF56DB71F40346B3',
+    id: '3A2E79ECCBD8FF6ECB43',
     participant: undefined
   },
-  messageTimestamp: 1707831482,
-  pushName: 'Distrirym',
+  messageTimestamp: 1707836204,
+  pushName: 'Johan',
   broadcast: false,
   message: Message {
-    conversation: 'Cual cita',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Es que los vuelos son por ahí 3.5mm, de ahí entre comidas y hospedaje serán por ahí 40-50€ el día depende de cuánto tiempo, y los destinos, pero yo soy más o menos bueno para sacar vuelos y cosas baratas',
+      contextInfo: [ContextInfo]
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Distrirym',
-  body: 'Cual cita',
-  from: '573168210553'
+  body: 'Es que los vuelos son por ahí 3.5mm, de ahí entre comidas y hospedaje serán por ahí 40-50€ el día depende de cuánto tiempo, y los destinos, pero yo soy más o menos bueno para sacar vuelos y cosas baratas',
+  from: '35699964899'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168210553@s.whatsapp.net',
+    remoteJid: '573143565918@s.whatsapp.net',
     fromMe: false,
-    id: '46CAA8C2389AF69B8875680AB61FBFB1',
+    id: '3A1BAAA56246AF0316C9',
     participant: undefined
   },
-  messageTimestamp: 1707831508,
-  pushName: 'Distrirym',
+  messageTimestamp: 1707838920,
+  pushName: 'Gaby Cobos',
   broadcast: false,
   message: Message {
-    conversation: 'Cuando voy a ser millonario ?',
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [],
+      url: 'https://mmg.whatsapp.net/v/t62.7118-24/32524753_7088568884595176_5149795037349679768_n.enc?ccb=11-4&oh=01_AdSI8fSbRW1R66n4lzvwRdtjEpzc3Q4rrvw1doEqgQUfxQ&oe=65F30DAE&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'image/jpeg',
+      caption: 'Me tocó empelotarme amor jaja estaba haciendo un calor terrible',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 1600,
+      width: 900,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7118-24/32524753_7088568884595176_5149795037349679768_n.enc?ccb=11-4&oh=01_AdSI8fSbRW1R66n4lzvwRdtjEpzc3Q4rrvw1doEqgQUfxQ&oe=65F30DAE&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      viewOnce: true
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Distrirym',
-  body: 'Cuando voy a ser millonario ?',
-  from: '573168210553'
+  body: '_event_media__8d0907f3-1066-44f9-bd76-8aa3fb4ed2d7',
+  from: '573143565918'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168210553@s.whatsapp.net',
+    remoteJid: '573143565918@s.whatsapp.net',
     fromMe: false,
-    id: '55C7E0AA040A09838534D2E12D024445',
+    id: '3A53E8DF937CA3E2AFAB',
     participant: undefined
   },
-  messageTimestamp: 1707831527,
-  pushName: 'Distrirym',
+  messageTimestamp: 1707839105,
+  pushName: 'Gaby Cobos',
   broadcast: false,
   message: Message {
-    conversation: 'Que contenido puedo hacer viral sobre los 30',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Y cuanto tienen que pagar amor ?',
+      contextInfo: [ContextInfo]
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Distrirym',
-  body: 'Que contenido puedo hacer viral sobre los 30',
-  from: '573168210553'
+  body: 'Y cuanto tienen que pagar amor ?',
+  from: '573143565918'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573168210553@s.whatsapp.net',
+    remoteJid: '573114797226@s.whatsapp.net',
     fromMe: false,
-    id: '3B05D7AF228D8EBE9761DEC2D9C9ADC2',
+    id: 'D19FEAEB9777E0A9E462C5C2ABD64291',
     participant: undefined
   },
-  messageTimestamp: 1707831599,
-  pushName: 'Distrirym',
+  messageTimestamp: 1707839234,
+  pushName: 'Blanca Irma Carrillo',
   broadcast: false,
   message: Message {
-    conversation: 'Buajajajajajaja',
+    conversation: 'Con eso compreas ahí más mercado',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Distrirym',
-  body: 'Buajajajajajaja',
-  from: '573168210553'
+  body: 'Con eso compreas ahí más mercado',
+  from: '573114797226'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573114797226@s.whatsapp.net',
+    fromMe: false,
+    id: '248C5EAFBDD0E2C2A1D02B2A0FDD008D',
+    participant: undefined
+  },
+  messageTimestamp: 1707839248,
+  pushName: 'Blanca Irma Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Igual cuando necesites me dices',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Igual cuando necesites me dices',
+  from: '573114797226'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573114797226@s.whatsapp.net',
+    fromMe: false,
+    id: '88663593EFC618A41CC991B050802EDC',
+    participant: undefined
+  },
+  messageTimestamp: 1707839271,
+  pushName: 'Blanca Irma Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Yo desde que pueda te presto',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Yo desde que pueda te presto',
+  from: '573114797226'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573197388876@s.whatsapp.net',
+    fromMe: false,
+    id: '00205A8A5A58E1D8885480291A191882',
+    participant: undefined
+  },
+  messageTimestamp: 1707839277,
+  pushName: 'Andrea',
+  broadcast: false,
+  message: Message {
+    conversation: 'https://open.spotify.com/track/560WpN34irYyIL5jtfQpCY?si=A3XIcP9dR9S0hzof91Q97A',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'https://open.spotify.com/track/560WpN34irYyIL5jtfQpCY?si=A3XIcP9dR9S0hzof91Q97A',
+  from: '573197388876'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573143565918@s.whatsapp.net',
+    fromMe: false,
+    id: '3AE4475CA894895F178E',
+    participant: undefined
+  },
+  messageTimestamp: 1707839325,
+  pushName: 'Gaby Cobos',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Jajaja todo lo tuyo amor jaja ❤️',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Jajaja todo lo tuyo amor jaja ❤️',
+  from: '573143565918'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573143565918@s.whatsapp.net',
+    fromMe: false,
+    id: '3A3C37CFF836A9DFFC9C',
+    participant: undefined
+  },
+  messageTimestamp: 1707839341,
+  pushName: 'Gaby Cobos',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Y ya hablaste con tu jefe para pagarlo ?',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Y ya hablaste con tu jefe para pagarlo ?',
+  from: '573143565918'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '35699964899@s.whatsapp.net',
+    fromMe: false,
+    id: '3A863ECD7AA0DB1F0796',
+    participant: undefined
+  },
+  messageTimestamp: 1707839878,
+  pushName: 'Johan',
+  broadcast: false,
+  message: Message {
+    conversation: 'Yo sé que si mi perrito',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Yo sé que si mi perrito',
+  from: '35699964899'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573143565918@s.whatsapp.net',
+    fromMe: false,
+    id: '3AF429267677E3538C15',
+    participant: undefined
+  },
+  messageTimestamp: 1707840114,
+  pushName: 'Gaby Cobos',
+  broadcast: false,
+  message: Message {
+    conversation: 'Siempre estaré conmigo amor mío',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Siempre estaré conmigo amor mío',
+  from: '573143565918'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573143565918@s.whatsapp.net',
+    fromMe: false,
+    id: '3AA924C57B17A125286C',
+    participant: undefined
+  },
+  messageTimestamp: 1707840199,
+  pushName: 'Gaby Cobos',
+  broadcast: false,
+  message: Message {
+    conversation: 'Amor ya me voy a bañar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Amor ya me voy a bañar',
+  from: '573143565918'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573143565918@s.whatsapp.net',
+    fromMe: false,
+    id: '3A2E2D967D4123A75143',
+    participant: undefined
+  },
+  messageTimestamp: 1707840201,
+  pushName: 'Gaby Cobos',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ya te escribo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ya te escribo',
+  from: '573143565918'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573114797226@s.whatsapp.net',
+    fromMe: false,
+    id: '312083CBEE363B54CA772CE748F39BD4',
+    participant: undefined
+  },
+  messageTimestamp: 1707840263,
+  pushName: 'Blanca Irma Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Por eso mientras se cuadra',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Por eso mientras se cuadra',
+  from: '573114797226'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573046626892@s.whatsapp.net',
+    fromMe: false,
+    id: '3E3FEA5359BCEDB67BDA2A6FD24276DF',
+    participant: undefined
+  },
+  messageTimestamp: 1707840319,
+  pushName: 'Mateo Rincon',
+  broadcast: false,
+  message: Message {
+    audioMessage: AudioMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7117-24/31804724_1114414130003259_6482690019911246038_n.enc?ccb=11-4&oh=01_AdTxPpGW9hblM-LfUqVEoIjC5Fl8i06pjNun3dbfltbCbw&oe=65F2F883&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'audio/ogg; codecs=opus',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 15,
+      ptt: true,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7117-24/31804724_1114414130003259_6482690019911246038_n.enc?ccb=11-4&oh=01_AdTxPpGW9hblM-LfUqVEoIjC5Fl8i06pjNun3dbfltbCbw&oe=65F2F883&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      contextInfo: [ContextInfo],
+      waveform: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_voice_note__6442e8bb-b0af-4521-8d48-562b48fedbb2',
+  from: '573046626892'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573143565918@s.whatsapp.net',
+    fromMe: false,
+    id: '3A11578B43E76766D674',
+    participant: undefined
+  },
+  messageTimestamp: 1707841100,
+  pushName: 'Gaby Cobos',
+  broadcast: false,
+  message: Message {
+    audioMessage: AudioMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7117-24/31858535_1476401192911181_508446326272779503_n.enc?ccb=11-4&oh=01_AdTunT1fYCAaKASw2gT3gAkSl417Jbm6Vk-t3x6k6yGQYQ&oe=65F2FF47&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'audio/ogg; codecs=opus',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 23,
+      ptt: true,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7117-24/31858535_1476401192911181_508446326272779503_n.enc?ccb=11-4&oh=01_AdTunT1fYCAaKASw2gT3gAkSl417Jbm6Vk-t3x6k6yGQYQ&oe=65F2FF47&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      streamingSidecar: [Uint8Array],
+      waveform: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_voice_note__c89d9a94-2aa9-4fe7-b319-ef5173e27fe9',
+  from: '573143565918'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573143565918@s.whatsapp.net',
+    fromMe: false,
+    id: '3ACB7C1F736F4442EEBE',
+    participant: undefined
+  },
+  messageTimestamp: 1707841207,
+  pushName: 'Gaby Cobos',
+  broadcast: false,
+  message: Message {
+    videoMessage: VideoMessage {
+      interactiveAnnotations: [],
+      url: 'https://mmg.whatsapp.net/v/t62.7161-24/40247992_775063161195481_7140920537313714812_n.enc?ccb=11-4&oh=01_AdSorVyBDu_cpmWX86ZRr--JBMTA6hu2NbviIGTtEpEFqg&oe=65F319B4&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'video/mp4',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 14,
+      mediaKey: [Uint8Array],
+      height: 848,
+      width: 480,
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7161-24/40247992_775063161195481_7140920537313714812_n.enc?ccb=11-4&oh=01_AdSorVyBDu_cpmWX86ZRr--JBMTA6hu2NbviIGTtEpEFqg&oe=65F319B4&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      streamingSidecar: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__25301cef-bb55-49d0-bf4b-606ac1e7a0d9',
+  from: '573143565918'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007162208@s.whatsapp.net',
+    fromMe: false,
+    id: 'C618BCDF53A3049A9C43499283470B85',
+    participant: undefined
+  },
+  messageTimestamp: 1707841236,
+  pushName: 'Ani',
+  broadcast: false,
+  message: Message {
+    conversation: 'El jueves',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'El jueves',
+  from: '573007162208'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007162208@s.whatsapp.net',
+    fromMe: false,
+    id: '2C98C87CF4A96F0966BF8737AF8E425D',
+    participant: undefined
+  },
+  messageTimestamp: 1707841240,
+  pushName: 'Ani',
+  broadcast: false,
+  message: Message {
+    conversation: 'Me los entregan',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Me los entregan',
+  from: '573007162208'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007162208@s.whatsapp.net',
+    fromMe: false,
+    id: 'A13798B5C512B03CCA6C82C3B03D5532',
+    participant: undefined
+  },
+  messageTimestamp: 1707841243,
+  pushName: 'Ani',
+  broadcast: false,
+  message: Message {
+    conversation: 'Están en revisión',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Están en revisión',
+  from: '573007162208'
 }

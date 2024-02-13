@@ -1,2 +1,4 @@
-
+*.log
+*.png
+*_sessions/
 node_modules/

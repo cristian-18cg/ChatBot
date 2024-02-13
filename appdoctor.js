@@ -31,7 +31,7 @@ const flowInicial = addKeyword("hola")
       /*Espera la respuesta de chatgpt y la muestra  */
       const response = await ChatGPTInstance.handleMsgChatGPT(ctx.body);
       const message = response.text;
-      if (ctx.body.toUpperCase() !== "si confirmo") {
+      if (ctx.body.toString() !== "si confirmo") {
         /* Si no escribio si confirmo vuelve al flujo otra vez y responde con lo que dijo chatgpt*/
         return fallBack(message);
       }
