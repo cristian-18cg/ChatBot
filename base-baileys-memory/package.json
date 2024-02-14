@@ -18,9 +18,11 @@
         "@bot-whatsapp/provider": "latest",
         "@whiskeysockets/baileys": "6.5.0",
         "axios": "^1.6.7",
+        "bot-ws-plugin-openai": "^1.0.6",
         "cache-manager": "5.2.4",
         "chatgpt": "^5.2.5",
         "dotenv": "^16.4.1",
+        "mongodb": "^6.3.0",
         "wa-sticker-formatter": "4.4.4"
     },
     "devDependencies": {
