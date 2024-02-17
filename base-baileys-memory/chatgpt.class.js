@@ -2,10 +2,10 @@ require('dotenv').config()
 
 class ChatGPTClass {
   queue = []; 
-  optionsGPT = { model: "gpt-3.5-turbo-0301" };
+  optionsGPT = { model: "text-embedding-3-small" };
   openai = undefined;
 
-  constructor() {
+  constructor() { 
     this.init().then();
   }
 

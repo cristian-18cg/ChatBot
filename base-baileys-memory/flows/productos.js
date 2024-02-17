@@ -13,21 +13,15 @@ const formatter = new Intl.NumberFormat('es-CO', {
 module.exports = addKeyword(["productos", "produ", "3"]).addAnswer(
   "Consultando productos...",
   null,
-  async (ctx, { flowDynamic }) => {
+  async (ctx, { flowDynamic, extensions}) => {
     try {
       /* Conexion con api woocommerce */
-      const axiosConfig = {
-        baseURL: process.env.BASE_URL,
-        auth: {
-          username: process.env.CONSUMER_KEY,
-          password: process.env.CONSUMER_SECRET,
-        },
-      };
+      const woocomerceCredenciales=extensions.woocommerceAxiosC
       /* Guardar en respuesta los productos */
 
 
-      const Productos = await axios.get("/products", axiosConfig);
-      const pedidos = await axios.get("/orders", axiosConfig);
+      const Productos = await axios.get("/products", woocomerceCredenciales);
+      const pedidos = await axios.get("/orders", woocomerceCredenciales);
 
 
       console.log(pedidos.data)

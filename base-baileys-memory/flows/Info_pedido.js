@@ -18,19 +18,11 @@ module.exports = addKeyword([
 ]).addAnswer(
   "Digita el *numero de celular* registrado en la *pagina web* para asi poder buscar tu pedido. ",
   { capture: true },
-  async (ctx, { flowDynamic, fallBack,endFlow }) => {
+  async (ctx, { flowDynamic, fallBack,extensions }) => {
     try {
-      /* Conexion con api woocommerce */
-      const axiosConfig = {
-        baseURL: process.env.BASE_URL,
-        auth: {
-          username: process.env.CONSUMER_KEY,
-          password: process.env.CONSUMER_SECRET,
-        },
-      };
-      
+      const woocomerceCredenciales=extensions.woocommerceAxiosC
       /* Guardar en respuesta los peidos */
-      const respuesta = await axios.get("/orders", axiosConfig);
+      const respuesta = await axios.get("/orders", woocomerceCredenciales);
       console.log(respuesta.data)
       if (regexDocumentoIdentidad.test(ctx.body)) {
         await flowDynamic('⌛ Aguarda un momento estamos buscando tu informacíon... ⌛')
