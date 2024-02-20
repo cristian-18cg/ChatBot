@@ -1,10 +1,12 @@
-const { addKeyword } = require("@bot-whatsapp/bot");
-
+const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
+const dbAgregar = require("../adaptador/agregarusuarios");
+const bienvenida = require("./bienvenida");
+const validator = require("../funciones/validator")
 
 
 let GLOBAL_STATE = {};
 
-const guardarInfo = (datosEntrantes) => {
+/* const guardarInfo = (datosEntrantes) => {
   let config = {
     method: "post",
     maxBodyLength: Infinity,
@@ -27,34 +29,55 @@ const guardarInfo = (datosEntrantes) => {
     .catch((error) => {
       console.log(error);
     });
-};
+}; */
 
-module.exports = addKeyword(["1"])
+module.exports =addKeyword('Registro')
+.addAnswer("No te encuentas registrado 😕")
+.addAnswer("Para continuar es importante contar con tu consentimiento y aprobación para dar tratamiento a tus datos personales., *¿aceptas y autorizas el Tratamiento de tus Datos Personales a Nacional de Eléctricos HH LTDA?* 😊\n Responde *Si* o *No*\n Lee aquí 👉 https://drive.google.com/file/d/1xlKYmzYRCpk7oRFm3TQRzSMrDERhfugc/view", 
+{capture:true}, async(ctx,{flowDynamic,fallBack,endFlow})=>{
+  const res =ctx.body
+  if(  !validator(ctx.body)){
+    return fallBack('Solo puedes digitar letras, vuelve a intentarlo...')
+   }
+  if(res.toLowerCase() !== "si"){
+    return endFlow("Lo sentimos, no podemos continuar con tu solicitud. 😕")
+  }else{
+    GLOBAL_STATE[ctx.from] = {
+      nombre_cliente: "",
+      nombre_empresa: "",
+      numero: ctx.from,
+      documento: "",
+      correo: "",
+      autorizacion_datos: ctx.body
+    };
+  }
+})
 .addAnswer("      📃 *FORMULARIO DE REGISTRO* 📃")
-.addAnswer("Por favor completa estos datos para darte la mejor asesoria. 😃 ")
+.addAnswer("Por favor completa estos datos para darte una mejor asesoria y poder continuar. 😃 ")
 .addAnswer("🛑 Digita *ccl* para *CANCELAR* el proceso en cualquier paso. 🛑")
-.addAnswer(
-  "Digita tu *nombre*:",
-  { capture: true },
-  async (ctx, { endFlow }) => {
+.addAnswer( "Digita tu *nombre*:",{ capture: true },
+  async (ctx, { endFlow,flowDynamic, fallBack }) => {
+    console.log(ctx.body)
+    if(  !validator(ctx.body)){
+     return fallBack('Solo puedes digitar letras, vuelve a intentarlo...')
+    }
+
     if (ctx.body.toLowerCase() === "ccl") {
       /* await flowDynamic('✖ Has cancelado el proceso. ✖') */
       return endFlow({ body: "✖ Has cancelado el proceso. ✖" });
     } else {
-      GLOBAL_STATE[ctx.from] = {
-        nombre_cliente: ctx.body,
-        nombre_empresa: "",
-        numero: ctx.from,
-        documento: "",
-        correo: "",
-      };
+      GLOBAL_STATE[ctx.from].nombre_cliente = ctx.body
+    
     }
   }
 )
 .addAnswer(
-  "Digita el *nombre* de tu empresa",
+  "Digita el *nombre* de tu empresa si eres de una empresa",
   { capture: true },
   async (ctx, { endFlow }) => {
+    if(  !validator(ctx.body)){
+      return fallBack('Solo puedes digitar letras, vuelve a intentarlo...')
+     }
     if (ctx.body.toLowerCase() === "ccl") {
       return endFlow({ body: "✖ Has cancelado el proceso. ✖" });
     } else {
@@ -81,20 +104,25 @@ module.exports = addKeyword(["1"])
   }
 )
 .addAnswer(
-  "Digita tu correo electronico",
+  "Digita tu *correo electronico*",
   { capture: true },
-  async (ctx, { flowDynamic, fallBack, endFlow }) => {
+  async (ctx, { flowDynamic, fallBack, endFlow, gotoFlow}) => {
     var validCorreo = /(^[a-zA-Z0-9_.-]+[@]{1}[a-z0-9]+[.][a-z]+$)/gm;
     if (ctx.body.toLowerCase() == "ccl") {
       return endFlow({ body: "✖ Has cancelado el proceso. ✖" });
     } else if (validCorreo.test(ctx.body)) {
       GLOBAL_STATE[ctx.from].correo = ctx.body;
-      guardarInfo(GLOBAL_STATE[ctx.from]);
+      const nuevoUsuario = GLOBAL_STATE[ctx.from]
+      dbAgregar(nuevoUsuario)
+
+
       await flowDynamic(
         `Hemos guardado tu información *${
           GLOBAL_STATE[ctx.from].nombre_cliente
         }*.`
-      );
+      
+      )
+      return gotoFlow(bienvenida,2);
     } else {
       await flowDynamic("Correo electronico no valido.");
       return fallBack();
