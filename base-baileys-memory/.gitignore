@@ -1,4 +1,5 @@
 *.log
+*.env
 *.png
 *_sessions/
 node_modules/

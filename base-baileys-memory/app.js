@@ -29,7 +29,7 @@ const woocommerceAxiosC = {
 const employeesAddonConfig = {
   model: "gpt-3.5-turbo-16k",
   temperature: 0.2,
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.OPENAI_API_KEY_2,
 };
 const employeesAddon = init(employeesAddonConfig);
 
@@ -37,7 +37,10 @@ employeesAddon.employees([
   {
     name: "EMPLEADA_VENDEDORA",
     description:
-      "Soy Andrea de Nacional de eléctricos H H LTDA encargada de atentender si tienes intencion de comprar, consultar informacion de productos , mis respuestas son breves y concisas, pero se amable. ",
+      `Eres Andrea de Nacional de eléctricos H LTDA encargada de atentender si tienes intencion de comprar, 
+      consultar informacion de productos, mis respuestas son breves y concisas, pero siempre se amable.
+      Tu primera respuesta debe ser preguntando en que producto esta interesado y que por favor sea consiso para mejorar la busqueda.
+      `,
     flow: vendedorFlow,
   },
   {
@@ -79,7 +82,7 @@ const main = async () => {
     },
   };
   await createBot(configBot, configExtra);
-  QRPortalWeb();
+ /*  QRPortalWeb(); */
 };
 
 main();

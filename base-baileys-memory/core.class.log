@@ -1,0 +1,336 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB091722A720A22DC45AE',
+    participant: undefined
+  },
+  messageTimestamp: 1708969523,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0E4B1EA5C19BF1B80C6',
+    participant: undefined
+  },
+  messageTimestamp: 1708969527,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573168108421'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1b12d3c5-5cd7-4ca2-82f8-0697e0d3b719',
+  keyword: 'key_3f32d1f7-087f-4b67-898f-277e4098de8e',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '485c9b17aa525509d04c56f82dd0fd91'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_47876281-3314-4117-9e32-5d7fe2d91650',
+  keyword: 'ans_1b12d3c5-5cd7-4ca2-82f8-0697e0d3b719',
+  answer: '¿En que te puedo ayudar el dia de hoy? 👀',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '0d3b80eb231b141a82fb0ddfbaa29953'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03B36EF3F6AA948E000',
+    participant: undefined
+  },
+  messageTimestamp: 1708969539,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'quiero lamparas para una bodega de 200 m',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'quiero lamparas para una bodega de 200 m',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D842E2ECDC0CC28076',
+    participant: undefined
+  },
+  messageTimestamp: 1708969575,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cuales y cuantas me ofrecen para ilimunar mi bodega de 200 metros cuadrado',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuales y cuantas me ofrecen para ilimunar mi bodega de 200 metros cuadrado',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03F0A389464C7137AA4',
+    participant: undefined
+  },
+  messageTimestamp: 1708969582,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'si',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B3708CFEE0B7DB67B5',
+    participant: undefined
+  },
+  messageTimestamp: 1708969648,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'cual me costaria menos y cuantas compro',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'cual me costaria menos y cuantas compro',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F93D2593A91C6755F6',
+    participant: undefined
+  },
+  messageTimestamp: 1708969708,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'mi bodega tiene 3m de alto y quiero una iluminacion mediana normal',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'mi bodega tiene 3m de alto y quiero una iluminacion mediana normal',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03B4BFE03CFF3F8C0DA',
+    participant: undefined
+  },
+  messageTimestamp: 1708969789,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'okay las quiero!',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'okay las quiero!',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB088404DD876DB35EBD9',
+    participant: undefined
+  },
+  messageTimestamp: 1708969801,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'quiero comprarlas',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'quiero comprarlas',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F6607990E97F3D326C',
+    participant: undefined
+  },
+  messageTimestamp: 1708969818,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'tu no tienes el link?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'tu no tienes el link?',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB059F07A7B37C1E516E3',
+    participant: undefined
+  },
+  messageTimestamp: 1708969831,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'dame el link',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'dame el link',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB049B9A3BE66A18AD5A9',
+    participant: undefined
+  },
+  messageTimestamp: 1708969900,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'a mmi me dijieron que si tienes los links',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'a mmi me dijieron que si tienes los links',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0E78B97C975EBD23078',
+    participant: undefined
+  },
+  messageTimestamp: 1708969912,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'dame la lista de productos',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'dame la lista de productos',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0557FDBF0252C1A26F9',
+    participant: undefined
+  },
+  messageTimestamp: 1708969934,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'quiero esta Luminaria High Bay HBL3 de 165W 100/277V 50.000H',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'quiero esta Luminaria High Bay HBL3 de 165W 100/277V 50.000H',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0E25D1E07540B00F2A9',
+    participant: undefined
+  },
+  messageTimestamp: 1708969950,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'como te llamas?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'como te llamas?',
+  from: '573168108421'
+}

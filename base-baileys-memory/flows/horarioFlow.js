@@ -31,6 +31,7 @@ module.exports = addKeyword(EVENTS.ACTION)
     "Que información sobre nuestras sedes necesitas?",
     { capture: true },
     async (ctx, { state, flowDynamic, fallBack }) => {
+      try{
       const State = state.getMyState();
       const response = await ChatGPTInstance.handleMsgChatGPT(ctx.body);
       const message = response.text;
@@ -39,5 +40,15 @@ module.exports = addKeyword(EVENTS.ACTION)
       } else {
         await flowDynamic(`Fue un gusto ayudarte *${State.usuario}*, espero vuelvas pronto.`);
       }
+    }catch (error) {
+      await flowDynamic(
+        "⏱️ Permiteme un momento mientras proceso tu solicitud, *no respondas nada* por el momento. ⏱️"
+      );
+      await delay(21000);
+      const response = await ChatGPTInstance.handleMsgChatGPT(ctx.body);
+      const message = response.text;
+      await flowDynamic("¡Listo!");
+      return fallBack(message);
+    }
     }
   );
