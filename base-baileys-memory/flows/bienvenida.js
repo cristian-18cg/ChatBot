@@ -33,10 +33,14 @@ module.exports = addKeyword(EVENTS.WELCOME)
           "Bienvenido(a) a *Nacional de Electricos*. \n ⏳ Estamos consultando si estas registrado(a) en nuestra base de datos.⌛"
         );
         return gotoFlow(registro);
-      } else
+      } else {
+        const nombre_cliente = datoUsuario[0].nombre_cliente;
+        const primerNombre = nombre_cliente.split(" ")[0];
+        console.log(primerNombre);
         await flowDynamic(
           `Hola *${datoUsuario[0].nombre_cliente}*, hablas con Andrea de Nacional de Electricos 🙋🏻, ¿como te encuentras?`
         );
+      }
     } catch (error) {
       console.error("Ha ocurrido un error", error);
     }
@@ -50,17 +54,21 @@ module.exports = addKeyword(EVENTS.WELCOME)
         const mensajeEntrante = ctx.body;
         const pluginAI = ctxFn.extensions.employeesAddon;
         const empleadoIdeal = await pluginAI.determine(mensajeEntrante);
+        const nombre_cliente = datoUsuario[0].nombre_cliente;
+        const primerNombre = nombre_cliente.split(" ")[0];
+
         /* Valida si existe un empleado ideal */
         if (!empleadoIdeal?.employee) {
           return ctxFn.flowDynamic(
             `Ups, lo siento no entendi que necesitas,  ¿Me podrias repetir como puedo ayudarte ${datoUsuario[0].nombre_cliente}?`
           );
         }
+
         /* Guarda la respuesta del chatGPT */
         await state.update({
           answer: empleadoIdeal.answer,
           history: ctx.body,
-          usuario: datoUsuario[0].nombre_cliente,
+          usuario: primerNombre,
         });
         /* Envia al flow adecuado */
         pluginAI.gotoFlow(empleadoIdeal.employee, ctxFn);

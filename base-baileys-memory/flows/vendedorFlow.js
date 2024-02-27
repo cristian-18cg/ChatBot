@@ -20,18 +20,18 @@ async function obtenerDatos(palabraBuscada) {
     // Crea un array de condiciones para el operador $or
     const condicionesOR = palabrasArray.map((palabra) => ({
       $or: [
-        { titulo: { $regex: palabraBuscada, $options: "i" } },
+        /*  { titulo: { $regex: palabraBuscada, $options: "i" } }, */
         { titulo: { $regex: palabra, $options: "i" } },
         { descripcion: { $regex: palabra, $options: "i" } },
       ],
     }));
-
+    
+    console.log(condicionesOR)
     // Realiza la consulta utilizando el operador $or
     const datos = await coleccion
       .find({ $or: condicionesOR })
       .limit(10)
       .toArray();
-
     return datos;
   } catch (error) {
     console.error("Error al obtener datos de MongoDB:", error);
@@ -78,16 +78,18 @@ module.exports = addKeyword("ventas")
     { capture: false },
     async (ctx, { state, flowDynamic, extensions, fallBack, gotoFlow }) => {
       try {
-        const respuestaChat = state.getMyState();
-        const PROMP_1 = generatePrompBusqueda(respuestaChat.history);
+        const State = state.getMyState();
+
+        const PROMP_1 = generatePrompBusqueda(State.history);
         const response_1 = await ChatGPTInstance.handleMsgChatGPT(PROMP_1);
-        console.log(response_1.detail.usage)
-        /* await flowDynamic(`Producto buscado: ${response_1.text}`); */
+        console.log("Gasto 1", response_1.detail.usage);
         console.log(`Producto buscado: ${response_1.text}`);
         /* Consulta base de datos productos */
         const datos = await obtenerDatos(response_1.text);
         if (datos.length === 0) {
-          await flowDynamic("No encontre ese producto 😔");
+          await flowDynamic(
+            "No encontre ese producto 😔, vuelve a indicar lo que necesitas por favor."
+          );
           return gotoFlow(bienvenida, 1);
         }
         /* Convertimos a los datos que necesitamos */
@@ -100,42 +102,46 @@ module.exports = addKeyword("ventas")
             precio,
           })
         );
+        /* Volvemos a texto plano los productos */
         const texto = JSON.stringify(productos);
+        /* Limpiamos todos los caracteres que no necesitamos */
         const datosLimpios = JSON.parse(texto).map((item) => {
-          return {
-            ...item,
-            descripcion: limpiarCadena(item.descripcion),
-          };
+          return Object.fromEntries(
+            Object.entries(item).map(([key, value]) => [
+              key,
+              limpiarCadena(value),
+            ])
+          );
         });
+
+        /* Volvemos a volver a texto  */
         const texto_Json = JSON.stringify(datosLimpios);
         /* Cambiamos las variables del PROMP */
         const PROMP = generatePrompVendedor(
-          respuestaChat.usuario,
-          respuestaChat.history,
+          State.usuario,
+          State.history,
           texto_Json
         );
-        /* console.log(PROMP); */
+        console.log(PROMP);
         /* Enviamos el segundo mensaje entrenando al bot */
         const respuesta = await ChatGPTInstance.handleMsgChatGPT(PROMP);
-        console.log(respuesta.text);/*  */
-        console.log(respuesta.detail.usage);
+        console.log(respuesta.text); /*  */
+        console.log("Gasto 2: ", respuesta.detail.usage);
 
         if (respuesta.text.toLowerCase() !== "ok") {
+          await flowDynamic("Aguarda un momento");
+          await delay(21000);
           const respuesta_2 = await ChatGPTInstance.handleMsgChatGPT(PROMP);
           console.log("No se entreno bien");
           console.log(respuesta_2.text);
         }
       } catch (error) {
-        console.log(error)
+        console.log(error);
         await flowDynamic(
           "⏱️ Permiteme un momento mientras proceso tu solicitud, *no respondas nada* por el momento. ⏱️"
         );
         await delay(21000);
-        const response = await ChatGPTInstance.handleMsgChatGPT(ctx.body);
-        const message = response.text;
-        await flowDynamic("¡Listo!");
-        return fallBack(message);
-        
+        return fallBack();
       }
     }
   )
@@ -144,17 +150,15 @@ module.exports = addKeyword("ventas")
     { capture: true },
     async (ctx, { state, fallBack, flowDynamic, gotoFlow }) => {
       const State = state.getMyState();
-
       if (contador) {
         await flowDynamic(
-          `*${State.usuario}* si deseas buscar otro producto escribe *SI* en mayuscula en cualquier momento 😄.\n 
-          o *NO* si quieres acabar con el proceso`
+          `*${State.usuario}* si deseas buscar otro producto escribe *SI* en mayuscula en cualquier momento 😄.\n Digita *NO* si quieres acabar con el proceso.`
         );
         contador = false;
       }
       try {
         const response = await ChatGPTInstance.handleMsgChatGPT(ctx.body);
-        console.log(response.detail.usage)
+        console.log(response.detail.usage);
         const message = response.text;
         if (ctx.body.toString() === "SI") {
           await flowDynamic("Dime el otro producto ");
@@ -173,7 +177,7 @@ module.exports = addKeyword("ventas")
           );
         }
       } catch (error) {
-        console.log(error)
+        console.log(error);
         console.error(error.message);
         await flowDynamic(
           " ⏱️ Permiteme un momento mientras proceso tu solicitud, *no respondas nada* por el momento. ⏱️"

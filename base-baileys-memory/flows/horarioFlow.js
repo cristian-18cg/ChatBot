@@ -28,7 +28,7 @@ module.exports = addKeyword(EVENTS.ACTION)
     console.log(message);
   })
   .addAnswer(
-    "Que información sobre nuestras sedes necesitas?",
+    "¿Me podrias especificar que información sobre nuestras sedes necesitas?",
     { capture: true },
     async (ctx, { state, flowDynamic, fallBack }) => {
       try{
@@ -38,7 +38,7 @@ module.exports = addKeyword(EVENTS.ACTION)
       if (ctx.body.toString() !== "No") {
         return fallBack(message);
       } else {
-        await flowDynamic(`Fue un gusto ayudarte *${State.usuario}*, espero vuelvas pronto.`);
+        await flowDynamic(`Fue un gusto ayudarte *${State.usuario}*, espero vuelvas pronto. 🙋🏻👋🏻`);
       }
     }catch (error) {
       await flowDynamic(

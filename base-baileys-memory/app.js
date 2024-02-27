@@ -28,7 +28,7 @@ const woocommerceAxiosC = {
 /* Credenciales openia */
 const employeesAddonConfig = {
   model: "gpt-3.5-turbo-16k",
-  temperature: 0.2,
+  temperature: 0,
   apiKey: process.env.OPENAI_API_KEY_2,
 };
 const employeesAddon = init(employeesAddonConfig);
