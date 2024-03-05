@@ -1,0 +1,364 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '30DCD12C4776837D503492247BEF856E',
+    participant: undefined
+  },
+  messageTimestamp: 1709238309,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573168108421'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f822bf31-1900-4ea7-a05b-ed32547b3473',
+  keyword: 'key_4a71c5a5-9315-4d27-b7e5-37f9446b1cb7',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7497ae2173e0e52b7aad61c68cb87a53'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_864e7957-ccb3-4c1b-ab70-7fd5f4dcd721',
+  keyword: 'ans_f822bf31-1900-4ea7-a05b-ed32547b3473',
+  answer: '¿En que te puedo ayudar el dia de hoy? 👀',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'c171b153ae33b50ac80af7a26324839d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '80AF637781430F6968BEFE0695511026',
+    participant: undefined
+  },
+  messageTimestamp: 1709238317,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tubo 3/4',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Tubo 3/4',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '9720593549AE6A3003E4327C6A97DB7B',
+    participant: undefined
+  },
+  messageTimestamp: 1709238323,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cuánto pesa?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuánto pesa?',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: 'B597A5DECFC51528351A25281300A98F',
+    participant: undefined
+  },
+  messageTimestamp: 1709238331,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Puntualmente',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Puntualmente',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: 'B3BA9497F2984C966F1E9122CDBE0AAD',
+    participant: undefined
+  },
+  messageTimestamp: 1709238856,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cuales tienes',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuales tienes',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '7B88A473A77EEAA148E85E7DF667B2CE',
+    participant: undefined
+  },
+  messageTimestamp: 1709238869,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tienes el peso exacto',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Tienes el peso exacto',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573168108421@s.whatsapp.net',
+    fromMe: false,
+    id: '9260B05A171D8A0CFB5001D50196B8C3',
+    participant: undefined
+  },
+  messageTimestamp: 1709238963,
+  pushName: 'Felipe Carrillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'NO',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'NO',
+  from: '573168108421'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573003165054@s.whatsapp.net',
+    fromMe: false,
+    id: '17C7BF5954E0B8825B8331FE90799D3E',
+    participant: undefined
+  },
+  messageTimestamp: 1709240542,
+  pushName: 'Acxel D.',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '573003165054'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573003165054@s.whatsapp.net',
+    fromMe: false,
+    id: '17C7BF5954E0B8825B8331FE90799D3E',
+    participant: undefined
+  },
+  messageTimestamp: 1709240543,
+  pushName: 'Acxel D.',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Quiúbole',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Quiúbole',
+  from: '573003165054'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f822bf31-1900-4ea7-a05b-ed32547b3473',
+  keyword: 'key_4a71c5a5-9315-4d27-b7e5-37f9446b1cb7',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7497ae2173e0e52b7aad61c68cb87a53'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573003165054@s.whatsapp.net',
+    fromMe: false,
+    id: 'C107EF3E75BBE36C0FFF2C071B821445',
+    participant: undefined
+  },
+  messageTimestamp: 1709240565,
+  pushName: 'Acxel D.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Si',
+  from: '573003165054'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cbbc70d4-b789-4587-8539-557e8f20c1c3',
+  keyword: 'ans_614a5b60-0061-499b-a031-89daf02d29a3',
+  answer: '      📃 *FORMULARIO DE REGISTRO* 📃',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '027914b905bc2d69bfc49ba730720430'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8c625fd9-3fbb-4494-b376-2721839fbb74',
+  keyword: 'ans_cbbc70d4-b789-4587-8539-557e8f20c1c3',
+  answer: 'Por favor completa estos datos para darte una mejor asesoria y poder continuar. 😃 ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a7b40c26093549d704a3300edf847354'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_933a1be3-7dda-4131-88d0-86f711e36066',
+  keyword: 'ans_8c625fd9-3fbb-4494-b376-2721839fbb74',
+  answer: '🛑 Digita *ccl* para *CANCELAR* el proceso en cualquier paso. 🛑',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6c6a6fb4bb97adff818f89640431f661'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8852ab65-c013-4fca-82d6-0474b9e23295',
+  keyword: 'ans_933a1be3-7dda-4131-88d0-86f711e36066',
+  answer: 'Digita tu *nombre*:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'acd47383d36bf254802fd37a71448728'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573003165054@s.whatsapp.net',
+    fromMe: false,
+    id: '1FFCC044FB85D6DD4C0C2A6C81E1DC44',
+    participant: undefined
+  },
+  messageTimestamp: 1709240577,
+  pushName: 'Acxel D.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Empresa XXX',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Empresa XXX',
+  from: '573003165054'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_10bdef14-23df-4427-90b5-679afad24cf0',
+  keyword: 'ans_8852ab65-c013-4fca-82d6-0474b9e23295',
+  answer: 'Digita el *nombre* de tu empresa si eres de una empresa',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '011be63a102c0e0876bede77a3e48096'
+}

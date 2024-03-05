@@ -17,6 +17,7 @@ const horarioFlow = require("./flows/horarioFlow");
 const vendedorFlow = require("./flows/vendedorFlow");
 const { init } = require("bot-ws-plugin-openai");
 const registro = require("./flows/registro");
+const ServerHttp = require("./http");
 /* woocomerce credenciales */
 const woocommerceAxiosC = {
   baseURL: process.env.BASE_URL,
@@ -36,8 +37,7 @@ const employeesAddon = init(employeesAddonConfig);
 employeesAddon.employees([
   {
     name: "EMPLEADA_VENDEDORA",
-    description:
-      `Eres Andrea de Nacional de eléctricos H LTDA encargada de atentender si tienes intencion de comprar, 
+    description: `Eres Andrea de Nacional de eléctricos H LTDA encargada de atentender si tienes intencion de comprar, 
       consultar informacion de productos, mis respuestas son breves y concisas, pero siempre se amable.
       Tu primera respuesta debe ser preguntando en que producto esta interesado y que por favor sea consiso para mejorar la busqueda.
       `,
@@ -81,8 +81,12 @@ const main = async () => {
       woocommerceAxiosC,
     },
   };
+
   await createBot(configBot, configExtra);
- /*  QRPortalWeb(); */
+  const server = new ServerHttp(configBot.provider);
+
+  server.start()
+  /*  QRPortalWeb(); */
 };
 
 main();

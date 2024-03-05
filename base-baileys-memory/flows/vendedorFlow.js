@@ -7,6 +7,7 @@ const ChatGPTInstance = new ChatGPTClass();
 const dbAgregar = require("../adaptador/agregarproductos");
 const { conectarDB, cerrarConexion } = require("../adaptador/adapMongo");
 const bienvenida = require("./bienvenida");
+const { sendMessageChatWood } = require("../services/chatwood");
 
 async function obtenerDatos(palabraBuscada) {
   let db;
@@ -25,8 +26,8 @@ async function obtenerDatos(palabraBuscada) {
         { descripcion: { $regex: palabra, $options: "i" } },
       ],
     }));
-    
-    console.log(condicionesOR)
+
+    console.log(condicionesOR);
     // Realiza la consulta utilizando el operador $or
     const datos = await coleccion
       .find({ $or: condicionesOR })
@@ -127,21 +128,35 @@ module.exports = addKeyword("ventas")
         const respuesta = await ChatGPTInstance.handleMsgChatGPT(PROMP);
         console.log(respuesta.text); /*  */
         console.log("Gasto 2: ", respuesta.detail.usage);
+        let isOk = false;
+        do {
+          try {
+            if (respuesta.text.toLowerCase() === "ok") {
+              isOk = true;
+            } else {
+              await flowDynamic("Aguarda un momento,hubo un problema! :(");
 
-        if (respuesta.text.toLowerCase() !== "ok") {
-          await flowDynamic("Aguarda un momento");
-          await delay(21000);
-          const respuesta_2 = await ChatGPTInstance.handleMsgChatGPT(PROMP);
-          console.log("No se entreno bien");
-          console.log(respuesta_2.text);
-        }
+              const respuesta_2 = await ChatGPTInstance.handleMsgChatGPT(PROMP);
+              console.log("No se entrenó bien");
+              console.log(respuesta_2.text);
+
+              // Agregar un retardo de 21000 ms en caso de error
+              await delay(21000);
+            }
+          } catch (error) {
+            console.error("Error:", error);
+            // Agregar un retardo de 21000 ms en caso de error
+            await delay(21000);
+          }
+        } while (!isOk);
       } catch (error) {
         console.log(error);
         await flowDynamic(
           "⏱️ Permiteme un momento mientras proceso tu solicitud, *no respondas nada* por el momento. ⏱️"
         );
         await delay(21000);
-        return fallBack();
+
+        return fallBack("!Listo¡");
       }
     }
   )
@@ -170,6 +185,7 @@ module.exports = addKeyword("ventas")
           );
           return fallBack(message);
         } else if (ctx.body.toString() !== "NO") {
+          await sendMessageChatWood(message, "incoming");
           return fallBack(message);
         } else {
           await flowDynamic(

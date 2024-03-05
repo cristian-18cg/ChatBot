@@ -2,6 +2,7 @@ const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
 const registro = require("./registro");
 const { conectarDB, cerrarConexion } = require("../adaptador/adapMongo");
 const { delay } = require("@whiskeysockets/baileys");
+const { sendMessageChatWood } = require("../services/chatwood");
 
 async function obtenerDatos(celular) {
   let db;
@@ -24,6 +25,7 @@ async function obtenerDatos(celular) {
 let datoUsuario = "";
 module.exports = addKeyword(EVENTS.WELCOME)
   .addAction(async (ctx, { flowDynamic, gotoFlow, endFlow }) => {
+    await sendMessageChatWood(`Mensaje usuario: ${ctx.body}`,'incoming')
     try {
       datoUsuario = await obtenerDatos(ctx.from);
       console.log(datoUsuario);
@@ -32,14 +34,15 @@ module.exports = addKeyword(EVENTS.WELCOME)
         await flowDynamic(
           "Bienvenido(a) a *Nacional de Electricos*. \n ⏳ Estamos consultando si estas registrado(a) en nuestra base de datos.⌛"
         );
+        
         return gotoFlow(registro);
       } else {
         const nombre_cliente = datoUsuario[0].nombre_cliente;
         const primerNombre = nombre_cliente.split(" ")[0];
         console.log(primerNombre);
-        await flowDynamic(
-          `Hola *${datoUsuario[0].nombre_cliente}*, hablas con Andrea de Nacional de Electricos 🙋🏻, ¿como te encuentras?`
-        );
+        const mensaje = `Hola *${datoUsuario[0].nombre_cliente}*, hablas con Andrea de Nacional de Electricos 🙋🏻, ¿como te encuentras?`
+        await flowDynamic(mensaje);
+        await sendMessageChatWood(`Mensaje chat: ${mensaje}`,'incoming')
       }
     } catch (error) {
       console.error("Ha ocurrido un error", error);
@@ -59,7 +62,7 @@ module.exports = addKeyword(EVENTS.WELCOME)
 
         /* Valida si existe un empleado ideal */
         if (!empleadoIdeal?.employee) {
-          return ctxFn.flowDynamic(
+          return ctxFn.fallBack(
             `Ups, lo siento no entendi que necesitas,  ¿Me podrias repetir como puedo ayudarte ${datoUsuario[0].nombre_cliente}?`
           );
         }
